@@ -1,0 +1,136 @@
+/*
+ *= require_tree .
+ *= require_self
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+// CSSreset End
+
+@charset "utf-8";
+
+body {
+  min-height: 500px;
+}
+
+// 自己寫的CSS自己寫的CSS自己寫的CSS自己寫的CSS自己寫的CSS自己寫的CSS自己寫的CSS
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+a {
+  color: #3b3b3b;
+}
+.wrapper {
+  width: 750px;
+  margin: auto;
+  color: #3b3b3b;
+}
+header {
+  width: 100%;
+  margin: 75px auto;
+  text-align: center;
+
+  h1 {
+    font-size: 52.5px;
+    font-weight: bolder;
+    font-family: Verdana;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    letter-spacing: -5px;
+  }
+  p {
+    font-size: 16.5px;
+    font-family: Georgia;
+  }
+}
+.navbar {
+  position: relative;
+  width: 100%;
+  height: 37.5px;
+  border-top: 1px solid #777;
+  font-family: monospace;
+  font-size: 0;
+  text-align: center;
+  li {
+    display: inline;
+  }
+  a {
+    display: inline-block;
+    font-size: 21.5px;
+    text-decoration: none;
+    transition: all .5s;
+    padding-top: 5px;
+    margin-right: 45px;
+    border-top: 10px solid transparent;
+    margin-top: -1px;
+    &:hover {
+      color: #D13030;
+      border-top: 10px solid #D13030;
+    }
+  }
+  .last {
+    margin-right: 0;
+  }
+}
+footer {
+  height: 75px;
+  width: 100%;
+  margin: auto;
+  padding-top: 30px;
+  text-align: center;
+  p {
+    font-size: 16.5px;
+    font-family: Georgia;
+    a {
+      text-decoration: underline;
+      transition: color .3s;
+      &:hover {
+        color: #D13030;
+      }
+    }
+  }
+}
