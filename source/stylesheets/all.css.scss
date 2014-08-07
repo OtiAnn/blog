@@ -50,10 +50,6 @@ table {
 
 @charset "utf-8";
 
-body {
-  min-height: 500px;
-}
-
 // 自己寫的CSS自己寫的CSS自己寫的CSS自己寫的CSS自己寫的CSS自己寫的CSS自己寫的CSS
 
 * {
@@ -61,12 +57,16 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+body {
+  min-height: 600px;
+  position: relative;
+}
 a {
   color: #3b3b3b;
 }
 .wrapper {
   width: 750px;
-  margin: auto;
+  margin: 0 auto;
   color: #3b3b3b;
 }
 header {
@@ -117,11 +117,13 @@ header {
   }
 }
 footer {
-  height: 75px;
   width: 100%;
-  margin: auto;
-  padding-top: 30px;
+  margin: 0 auto -75px;
+  padding-top: 100px;
   text-align: center;
+  position: absolute;
+  bottom: 25px;
+  left: 0;
   p {
     font-size: 16.5px;
     font-family: Georgia;
