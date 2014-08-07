@@ -13,7 +13,7 @@ tags: Rails
 這裡的筆記不一定是最佳解，但是是能夠work的！就是給自己提個醒，會持續更新，有更佳解會來修改！
 
 
-##√我不喜歡在rails generate something 時，產生一堆奇奇怪怪用不到的東西，我可以...
+###我不喜歡在rails generate something 時，產生一堆奇奇怪怪用不到的東西，我可以...
 
 方法一：
 在command line下指令時，在後面加上：
@@ -26,8 +26,6 @@ tags: Rails
 ~~~ruby
 module Blank
   class Application < Rails::Application
-    ...
-
     config.generators.assets = false
     config.generators.helper = false
     config.generators.jbuilder = false
@@ -36,14 +34,14 @@ end
 ~~~
 
 
-##√我想要在新增專案時就設定好我要使用postgres！
+###我想要在新增專案時就設定好我要使用postgres！
 
 在command line直接這樣下指令：
 
 ```$ rails new myproject -d postgresql```
 
 
-##√把某個model刪掉後，又要再次用它，發現噴很多錯，因為沒刪乾淨，這時可以進入console把他刪乾淨...
+###把某個model刪掉後，又要再次用它，發現噴很多錯，因為沒刪乾淨，這時可以進入console把他刪乾淨...
 
 ~~~shell
 $ rails c
@@ -55,3 +53,4 @@ $ rails c
 
 <blockquote>「女孩」與「程式」真的這麼格格不入嗎？或者擴大範圍，女性與 STEM（科學、技術、工程、數學）為何相看兩相厭？從事科技產業的女生其實並不罕見，走一趟行銷或財務等部門，可以看到不少幹練女性的身影，然而真正在第一線創造產品的女性，屈指可數。
 </blockquote>
+<iframe src="//www.facebook.com/plugins/follow?href=https%3A%2F%2Fwww.facebook.com%2FOtiAnn&amp;layout=standard&amp;show_faces=true&amp;colorscheme=light&amp;width=450&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowTransparency="true"></iframe>

@@ -7,9 +7,7 @@
     padding-bottom: 30px;
     position: relative;
     font-weight: bolder;
-    color: #7d1c1c;
     border-bottom: 5px double #D13030;
-    // border-bottom: 10px ridge #D13030;
     margin-bottom: 50px;
     h1 {
       width: 510px;
@@ -27,23 +25,40 @@
     line-height: 1.6;
     letter-spacing: -.5px;
     font-family: sans-serif;
-    word-wrap: break-word;
     h4,h5,h6,p,ul,ol,dl {
       margin: 15px 0;
     }
     h1,h2,h3 {
-      margin: 30px 0 15px;
+      margin: 30px 0;
+      line-height: 1.2;
+      font-weight: bolder;
+      position: relative;
     }
     h1 {
       font-size: 34px;
-      font-weight: bolder;
     }
     h2 {
       font-size: 32px;
-      font-weight: bolder;
     }
     h3 {
       font-size: 30px;
+    }
+    h1:before, h2:before, h3:before {
+      content: " ";
+      display: block;
+      position: absolute;
+      left: -15px;
+      top: -2px;
+      border: 5px solid #D13030;
+    }
+    h1:before {
+      height: 32px;
+    }
+    h2:before {
+      height: 30px;
+    }
+    h3:before {
+      height: 28px;
     }
     h4 {
       font-size: 26px;
@@ -67,17 +82,20 @@
     }
     pre {
       padding: 15px 20px;
-      border-left: 10px solid #FAE72C;
+      border: 1px dashed #555;
+      border-left: 10px solid #555;
+      // border-left: 10px solid #FAE72C;
       border-radius: 10px 0 0 10px;
-      overflow: auto;
-      background-color: #49483e;
+      // background-color: #49483e;
+      background-color: #fff;
     }
     pre,blockquote,table,hr,img {
       margin: 30px 0;
     }
     pre, code, p code {
       font-family: monospace;
-      font-size: 20px;
+      font-size: 18px;
+      line-height: 1.3;
     }
     ul,ol {
       padding-left: 30px;
@@ -138,27 +156,40 @@
   }
 }
 .highlight {
+  color: #555;
+  background-color: transparent;
+
+  // display: inline-block;
+  // width: 100%;
+  // overflow: auto;
+  // z-index: -1;
   span {
     font-weight: lighter !important;
   }
-  .c {
-    color: #ccc;
+  .c1,.c {
+    font-size: 16px;
+    font-style: normal;
+    color: #aaa;
   }
-  .s,.sx,.si {
-    color: #f8f8f2; //灰白
+  .ss,.n,.vi,.nb,.na,.nd {
+    color: #3FA73F; //綠
   }
-  .na,.nf,.nd {
-    color: #FAE72C; //黃
+  .sx,.si,.nf,.err,.nl {
+    color: #555;
+    // color: #f8f8f2; //灰白
+    background-color: transparent;
   }
-  .nt,.o,.gp {
-    color: #66d9ef; //藍
+  .s{
+    color: #FF8E25; //橘
+    // color: #FAE72C; //黃
   }
-  .err,.m,.mi,.n {
-    color: #FF8181; //橘
+  .nt,.gp,.k,.no,.o {
+    // color: #66d9ef; //藍
+    color: #3162B9;
+  }
+  .m,.mi,.kp,.nn,.nc,.s2,.s1,.nf {
+    color: #D13030; //紅
+    // color: #FF8181; //橘
     background-color: transparent;
   }
 }
-// * pre {
-//   width: 680px;
-//   overflow: auto;
-// }
