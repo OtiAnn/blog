@@ -5,6 +5,7 @@
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <!-- Use title if it's in the page YAML frontmatter -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><%= "Annideas #{current_page.data.title}" || "Annideas" %></title>
     <%= stylesheet_link_tag "normalize", "all" %>
     <%= javascript_include_tag  "all" %>
@@ -13,7 +14,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>Annideas?</h1>
+        <h1><a href="/">Annideas?</a></h1>
         <p>Do a little more of what you want to do every day, <br>until your idea becomes what's real.</p>
       </header>
       <ul class="navbar">
