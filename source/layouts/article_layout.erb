@@ -6,6 +6,13 @@
     </div>
     <div class="content">
       <%= yield %>
+      <span style="font-size: 18px;" class="lsf-icon" title="tag">
+        <% current_article.tags.each do |tag| %>
+          <li style="line-height: 2; border: none; font-size: 20px; display: inline;">
+            <%= link_to tag, tag_path(tag) %>
+          </li>
+        <% end %>
+      </span>
     </div>
     <%= disqus %>
   </div>
