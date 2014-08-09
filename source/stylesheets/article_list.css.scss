@@ -1,6 +1,7 @@
 .container{
   width: 100%;
   margin: 75px auto;
+  padding-bottom: 75px;
   a {
   background: transparent;
   text-decoration: none;
@@ -24,14 +25,14 @@
       left: 0;
       font-family: monospace;
       color: #777;
-      letter-spacing: -3px;
+      letter-spacing: -2px;
       font-size: 22.5px;
     }
     .title {
       position: absolute;
       left: 50%;
       margin-left: -150px;
-      font-family: sans-serif;
+      font-family: Palatino, "微軟正黑體", sans-serif;
     }
     .summary {
       padding-top: 45px;
@@ -39,6 +40,7 @@
       font-size: 13.5px;
       line-height: 1.3;
       letter-spacing: 0;
+      font-family: Palatino, "微軟正黑體", sans-serif;
       .highlight {
         color: #3b3b3b;
         background-color: transparent;

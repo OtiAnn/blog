@@ -1,0 +1,63 @@
+/* LigatureSymbols CSS */
+
+@font-face {
+    font-family: 'LigatureSymbols';
+    src: url('LigatureSymbols-2.11.eot');
+    src: url('LigatureSymbols-2.11.eot?#iefix') format('embedded-opentype'),
+         url('LigatureSymbols-2.11.woff') format('woff'),
+         url('LigatureSymbols-2.11.ttf') format('truetype'),
+         url('LigatureSymbols-2.11.svg#LigatureSymbols') format('svg');
+    src: url('LigatureSymbols-2.11.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.lsf, .lsf-icon:before {
+  font-family: 'LigatureSymbols';
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-text-rendering: optimizeLegibility;
+  -ms-text-rendering: optimizeLegibility;
+  -o-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.lsf-icon:before {
+  content:attr(title);
+  margin: 0 0.3em;
+  font-size:190%;
+}
+
+.lsf-icon.menu {
+    padding: 2px;
+    cursor: pointer;
+  }
+
+.lsf-icon.menu:before {
+  content: '\E08e';
+  font-size: 230%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 7px 16px;
+  margin-left: -40px;
+}
+
+.lsf-icon.search {
+    padding: 2px;
+    cursor: pointer;
+  }
+
+.lsf-icon.search:before {
+  content: '\E116';
+  font-size: 210%;
+  color: rgba(0, 0, 0, 0.43);
+  padding: 3px 17px 2px 17px;
+  position: relative;
+  top: -90px;
+  left: 210px;
+  outline: none;
+}

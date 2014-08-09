@@ -13,7 +13,7 @@ tags: Rails
 這裡的筆記不一定是最佳解，但是是能夠work的！就是給自己提個醒，會持續更新，有更佳解會來修改！
 
 
-###我不喜歡在rails generate something 時，產生一堆奇奇怪怪用不到的東西，我可以...
+###我不喜歡在rails generate something...
 
 方法一：
 在command line下指令時，在後面加上：
@@ -21,7 +21,7 @@ tags: Rails
 ```$ rails g controller post --skip-assets```
 
 方法二：
-若懶得每次generate都要打上這個，想要在該專案中永久生效，就在`config/application/rb`中加上：
+在```config/application/rb```中加上：
 
 ~~~ruby
 module Blank
@@ -34,14 +34,14 @@ end
 ~~~
 
 
-###我想要在新增專案時就設定好我要使用postgres！
+###我想要使用postgres！
 
 在command line直接這樣下指令：
 
 ```$ rails new myproject -d postgresql```
 
 
-###把某個model刪掉後，又要再次用它，發現噴很多錯，因為沒刪乾淨，這時可以進入console把他刪乾淨...
+###把某個model刪掉後...
 
 ~~~shell
 $ rails c

@@ -3,7 +3,7 @@
   padding: 0 35px;
   .header {
     font-size: 34px;
-    font-family: sans-serif;
+    font-family: Palatino, "微軟正黑體", sans-serif;
     padding-bottom: 30px;
     position: relative;
     font-weight: bolder;
@@ -15,6 +15,7 @@
     .date {
       font-size: 24px;
       font-family: monospace;
+      font-weight: normal;
       position: absolute;
       right: 0;
       line-height: 1.4;
@@ -24,7 +25,7 @@
   .content {
     line-height: 1.6;
     letter-spacing: -.5px;
-    font-family: sans-serif;
+    font-family: Palatino, "微軟正黑體", sans-serif;
     h4,h5,h6,p,ul,ol,dl {
       margin: 15px 0;
     }
@@ -120,6 +121,18 @@
       border-radius: 10px 0 0 10px;
       // background-color: #49483e;
       background-color: #fff;
+      .line-through {
+        text-decoration: line-through;
+        color: #999;
+      }
+      .about {
+        margin: -20px 0;
+        text-align: center;
+        a.lsf-icon {
+          border: none;
+          font-size: 1.8em;
+        }
+      }
     }
     pre,blockquote,table,hr,img {
       margin: 30px 0;
