@@ -1,5 +1,5 @@
 xml.instruct!
-xml.feed "xmlns" => "http://blog.annideas.com/Atom" do
+xml.feed "xmlns" => "http://blog.annideas.com/feed.xml" do
   site_url = "http://blog.annideas.com/"
   xml.title "Annideas?"
   xml.subtitle "OtiAnn's Blog"
