@@ -1,4 +1,4 @@
-xml.instruct!
+xml.instruct! :xml, :version => '1.0'
 xml.feed "xmlns" => "http://blog.annideas.com/feed.xml" do
   site_url = "http://blog.annideas.com/"
   xml.title "Annideas?"
