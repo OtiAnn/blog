@@ -26,6 +26,9 @@
     line-height: 1.6;
     letter-spacing: -.5px;
     font-family: Palatino, "微軟正黑體", sans-serif;
+    .paginate {
+      text-align: right;
+    }
     h4,h5,h6,p,ul,ol,dl {
       margin: 15px 0;
     }

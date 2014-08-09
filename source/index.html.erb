@@ -2,13 +2,6 @@
 pageable: true
 per_page: 10
 ---
-<% if paginate && num_pages > 1 %>
-  <p>Page <%= page_number %> of <%= num_pages %></p>
-
-  <% if prev_page %>
-    <p><%= link_to 'Previous page', prev_page %></p>
-  <% end %>
-<% end %>
 
 <ul class="articleList">
   <% page_articles.each_with_index do |article| %>
@@ -19,9 +12,20 @@ per_page: 10
     </li>
   <% end %>
 </ul>
-
-<% if paginate %>
-  <% if next_page %>
-    <p><%= link_to 'Next page', next_page %></p>
-  <% end %>
-<% end %>
+<div class="posts">
+  <div class="content">
+    <div class="paginate">
+      <% if paginate && num_pages > 1 %>
+        <span>Page <%= page_number %> of <%= num_pages %></span>
+        <% if prev_page %>
+          <span><%= link_to 'Previous page', prev_page %></span>
+        <% end %>
+      <% end %>
+      <% if paginate %>
+        <% if next_page %>
+          <span><%= link_to 'Next page', next_page %></span>
+        <% end %>
+      <% end %>
+    </div>
+  </div>
+</div>
