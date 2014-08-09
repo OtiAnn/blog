@@ -26,6 +26,9 @@
     line-height: 1.6;
     letter-spacing: -.5px;
     font-family: Palatino, "微軟正黑體", sans-serif;
+    .articles {
+        margin-top: 60px;
+    }
     .paginate {
       text-align: center;
       a {
@@ -124,6 +127,9 @@
         color: #777;
       }
     }
+    .aboutBlock {
+      padding-bottom: 0;
+    }
     pre {
       padding: 15px 20px;
       border: 1px dashed #555;
@@ -137,11 +143,20 @@
         color: #999;
       }
       .about {
-        margin: -20px 0;
+        margin: -60px 0;
         text-align: center;
+        span {
+          line-height: 1.5;
+        }
+      }
+      .aboutLink {
+        display: inline-block;
+        width: 100%;
+        text-align: right;
+        margin: 0;
+        line-height: 0;
         a.lsf-icon {
           border: none;
-          font-size: 1.8em;
         }
       }
     }
