@@ -1,7 +1,8 @@
 ---
 title: » 我的第一篇文章！(測試用)
 date: 2014-07-31 08:18 UTC
-tags: Rails
+tags:
+published: false
 ---
 
 這系列文章打算拿來記錄一些常用，卻又常忘的指令或設定！
