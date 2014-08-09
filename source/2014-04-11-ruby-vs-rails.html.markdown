@@ -1,6 +1,6 @@
 ---
 title: » Ruby和Rails的差別
-date: 2014-08-09 09:16 UTC
+date: 2014-04-11 09:16 UTC
 tags: ruby, rails
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: » will_paginate與ransack
-date: 2014-08-09 10:01 UTC
+date: 2014-06-05 10:01 UTC
 tags: gem
 ---
 

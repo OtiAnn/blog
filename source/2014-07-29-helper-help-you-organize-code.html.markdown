@@ -1,6 +1,6 @@
 ---
 title: » 用Helper幫你打掃Code
-date: 2014-08-09 10:09 UTC
+date: 2014-07-29 10:09 UTC
 tags: rails
 ---
 

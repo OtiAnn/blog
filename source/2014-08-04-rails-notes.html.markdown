@@ -1,6 +1,6 @@
 ---
 title: » Rails常用指令小筆記
-date: 2014-08-09 10:16 UTC
+date: 2014-08-04 10:16 UTC
 tags: rails
 ---
 

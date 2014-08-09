@@ -1,6 +1,6 @@
 ---
 title: » 第一次成為Rails Girls
-date: 2014-08-09 09:09 UTC
+date: 2014-04-09 09:09 UTC
 tags: railsgirls, codecademy, nitrous
 ---
 
