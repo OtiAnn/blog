@@ -34,6 +34,8 @@ activate :disqus do |d|
   d.shortname = 'otiannie5' # Replace with your Disqus shortname.
 end
 
+require "builder"
+
 page "/feed.xml", layout: false
 
 ###
