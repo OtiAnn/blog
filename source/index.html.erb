@@ -1,6 +1,6 @@
 ---
 pageable: true
-per_page: 10
+per_page: 5
 ---
 
 <ul class="articleList">
@@ -16,14 +16,18 @@ per_page: 10
   <div class="content">
     <div class="paginate">
       <% if paginate && num_pages > 1 %>
-        <span>Page <%= page_number %> of <%= num_pages %></span>
         <% if prev_page %>
           <span><%= link_to 'Previous page', prev_page %></span>
+        <% else %>
+          <span class="noLink">Previous page</span>
         <% end %>
+        <span>Page <%= page_number %> of <%= num_pages %></span>
       <% end %>
       <% if paginate %>
         <% if next_page %>
           <span><%= link_to 'Next page', next_page %></span>
+        <% else %>
+          <span class="noLink">Next page</span>
         <% end %>
       <% end %>
     </div>

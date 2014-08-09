@@ -27,7 +27,15 @@
     letter-spacing: -.5px;
     font-family: Palatino, "微軟正黑體", sans-serif;
     .paginate {
-      text-align: right;
+      text-align: center;
+      a {
+        margin: 0 20px;
+      }
+      .noLink {
+        padding-bottom: 2px;
+        margin: 0 20px;
+        color: #999;
+      }
     }
     h4,h5,h6,p,ul,ol,dl {
       margin: 15px 0;
