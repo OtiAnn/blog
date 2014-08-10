@@ -1,5 +1,5 @@
-xml.instruct! :xml, :version => '1.0'
-xml.feed "xmlns" => "http://blog.annideas.com/feed.xml" do
+xml.instruct!
+xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
   site_url = "http://blog.annideas.com/"
   xml.title "Annideas?"
   xml.subtitle "OtiAnn's Blog"
@@ -17,7 +17,7 @@ xml.feed "xmlns" => "http://blog.annideas.com/feed.xml" do
       xml.published article.date.to_time.iso8601
       xml.updated File.mtime(article.source_file).iso8601
       xml.author { xml.name "OtiAnn" }
-      # xml.summary article.summary, "type" => "html"
+      xml.summary article.summary, "type" => "html"
       xml.content article.body, "type" => "html"
     end
   end
