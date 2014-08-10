@@ -1,7 +1,7 @@
 ---
 title: » Git 版本控制
 date: 2014-05-17 09:41 UTC
-tags: git
+tags: Git, Source Tree
 ---
 
 **人生不能砍掉重練，寫程式可以！**

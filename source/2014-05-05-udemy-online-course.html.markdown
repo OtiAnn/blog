@@ -1,7 +1,7 @@
 ---
-title: » 透過Udemy課程製作部落格
+title: » Udemy課程-用Rails打造部落格
 date: 2014-05-05 09:36 UTC
-tags: udemy
+tags: Udemy, Rails
 ---
 
 Rails Girls 活動後，一直處於自學而沒有完整課程的訓練，

@@ -1,7 +1,7 @@
 ---
-title: AWS EC2 notes
+title: » AWS EC2 notes
 date: 2014-08-10 18:13 UTC
-tags: ubuntu, aws, middleman
+tags: Ubuntu, AWS, Middleman, Gem
 published: false
 ---
 

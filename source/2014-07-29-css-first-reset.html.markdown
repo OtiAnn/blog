@@ -1,7 +1,7 @@
 ---
-title: » 噢原來要先Reset
+title: » 噢原來CSS要先Reset
 date: 2014-07-29 10:14 UTC
-tags: css
+tags: CSS
 ---
 
 各大瀏覽器之間，龍爭虎鬥，勾心鬥角(?)

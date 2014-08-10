@@ -1,7 +1,7 @@
 ---
-title: » 幽靈-駭客的填字遊戲
+title: » 幽靈-Rails的駭客填字遊戲
 date: 2014-04-16 09:29 UTC
-tags: hacking, sql injection, xss
+tags: Hacking, SQL Injection, XSS, Rails
 ---
 
 **小心，幽靈就在你身邊！**

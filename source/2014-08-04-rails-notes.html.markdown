@@ -1,7 +1,7 @@
 ---
 title: » Rails常用指令小筆記
 date: 2014-08-04 10:16 UTC
-tags: rails
+tags: Rails, Postgres
 ---
 
 這系列文章打算拿來記錄一些常用，卻又常忘的指令或設定！你也會不喜歡rails generate 時幫你多增加一些奇奇怪怪的東西嗎？你也想要在一開始新增專案時就設定好要使用的資料庫類型嗎？你也會有將某個model刪掉，後來又需要用到時，重新新增卻失敗的情況嗎？明明已經d掉，卻沒d乾淨...
@@ -23,7 +23,7 @@ $ rails g controller post --skip-assets
 
 **方法二：**
 
-若懶得每次generate都要打上這個，想要在該專案中永久生效，就在`config/application/rb`中加上：
+若懶得每次generate都要打上這個，想要在該專案中永久生效，就在`config/application.rb`中加上：
 
 ~~~ruby
 module Blank

@@ -1,7 +1,7 @@
 ---
-title: » 線上學習資源心得比較
+title: » Ruby/Rails線上學習資源
 date: 2014-04-11 09:22 UTC
-tags: codecademy, codeschool, rubymonk, rubywarrior
+tags: Codecademy, Codeschool, Rubymonk, Rubywarrior, Ruby, Rails
 ---
 
 其實上一篇原本的標題就是線上學習資源心得比較，沒想到前言打一打，開始打Ruby跟Rails的差別，反倒獨立成一篇了。算惹算惹，老師的通病好像就是想到哪裡就會講到哪裡，Out of control XD(?)

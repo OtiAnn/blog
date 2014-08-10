@@ -1,7 +1,7 @@
 ---
 title: » will_paginate與ransack
 date: 2014-06-05 10:01 UTC
-tags: gem
+tags: Gem, Rails
 ---
 
 這篇主要介紹兩個很方便的 gem :will_paginate、ransack

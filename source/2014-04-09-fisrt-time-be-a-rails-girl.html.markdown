@@ -1,7 +1,7 @@
 ---
-title: » 第一次成為Rails Girls
+title: » 第一次成為Rails Girls @Taipei
 date: 2014-04-09 09:09 UTC
-tags: railsgirls, codecademy, nitrous
+tags: Rails Girls, Codecademy, Nitrous
 ---
 
 第一次成為 Rails Girls！(☆_☆)

@@ -1,7 +1,7 @@
 ---
-title: » 用Helper幫你打掃Code
+title: » 用Rails Helper幫你打掃Code
 date: 2014-07-29 10:09 UTC
-tags: rails
+tags: Rails
 ---
 
 噢，這篇在說自製Helper！

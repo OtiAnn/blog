@@ -1,7 +1,7 @@
 ---
-title: » 看看世界
+title: » 看看世界-多看前輩的code
 date: 2014-05-25 09:44 UTC
-tags: railsgirls
+tags: Rails Girls
 ---
 
 走出自己的 sublime 看看其他人的 code 吧！
