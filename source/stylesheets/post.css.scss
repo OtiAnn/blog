@@ -59,54 +59,43 @@
     h3 {
       font-size: 30px;
     }
-    h1:before, h2:before, h3:before {
-      content: " ";
-      display: block;
-      position: absolute;
-      left: -20px;
-      top: -10px;
-      border: 7px solid transparent;
-      border-right: 20px solid #D13030;
-      // border: 10px solid rgba(209, 48, 48, 0.69);
-      // border-radius: 20px 20px 0px 20px;
-      -webkit-transform: rotate(-40deg);
-      -ms-transform: rotate(-40deg);
-      -o-transform: rotate(-40deg);
-      transform: rotate(-40deg);
-    }
-    h1:after, h2:after, h3:after {
-      content: " ";
-      display: block;
-      position: absolute;
-      left: -23px;
-      top: -8px;
-      border: 7px solid transparent;
-      border-left: 20px solid #D13030;
-      -webkit-transform: rotate(-40deg);
-      -ms-transform: rotate(-40deg);
-      -o-transform: rotate(-40deg);
-      transform: rotate(-40deg);
-    }
-    h3:hover {
-      cursor: default;
+    h1, h2, h3 {
       &:before, &:after {
-      -ms-transform: rotate(-400deg);
-      -o-transform: rotate(-400deg);
-      transform: rotate(-400deg);
-      -webkit-transition: all .3s ease-in-out;
-      -o-transition: all .3s ease-in-out;
-      transition: all .3s ease-in-out;
+        content: " ";
+        display: block;
+        position: absolute;
+        border: 7px solid transparent;
+        -webkit-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
+        -webkit-transform: rotate(-40deg);
+        -ms-transform: rotate(-40deg);
+        -o-transform: rotate(-40deg);
+        transform: rotate(-40deg);
+      }
+      &:hover {
+        cursor: default;
+        &:before, &:after {
+          -webkit-transform: rotate(-400deg);
+          -ms-transform: rotate(-400deg);
+          -o-transform: rotate(-400deg);
+          transform: rotate(-400deg);
+        }
       }
     }
-    // h1:before {
-    //   height: 32px;
-    // }
-    // h2:before {
-    //   height: 30px;
-    // }
-    // h3:before {
-    //   height: 28px;
-    // }
+
+    h1, h2, h3 {
+      &:before {
+        left: -20px;
+        top: -10px;
+        border-right: 20px solid #D13030;
+      }
+      &:after {
+        left: -23px;
+        top: -8px;
+        border-left: 20px solid #D13030;
+      }
+    }
 
     h4 {
       font-size: 26px;
@@ -230,14 +219,6 @@
 .highlight {
   color: #555;
   background-color: transparent;
-  // span::selection {
-  //   background: #333;
-  //   color: #eee;
-  // }
-  // display: inline-block;
-  // width: 100%;
-  // overflow: auto;
-  // z-index: -1;
   span {
     font-weight: lighter !important;
   }
