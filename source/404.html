@@ -2,17 +2,41 @@
 <html>
 <head>
   <meta charset=utf-8>
-  <title>Page not found</title>
+  <title>Annideas >> Page not found</title>
+  <link rel="stylesheet" href="stylesheets/all.css.scss">
+  <link rel="stylesheet" href="stylesheets/article_list.css.scss">
+  <link rel="stylesheet" href="stylesheets/normalize.css">
+  <style>
+    .content {
+      text-align: center;
+    }
+    p, a {
+      font-size: 30px;
+      line-height: 1.5;
+      margin-top: 50px;
+    }
+    a {
+      text-decoration: none;
+      border-bottom: 2px dotted #D13030;
+      padding-bottom: 2px;
+      margin: 0 5px;
+      transition: color .3s;
+    }
+    a:hover {
+      color: #D13030;
+    }
+  </style>
 </head>
 <body>
-  <div class="posts">
-    <div class="content">
-      <pre>
-        <code class="highlight css">
-          <p>找不到你要看的頁面喔～～要不要再確認一下？</p>
-          <p>不然先回<a href="http://blog.annideas.com">首頁</a>看看吧～</p>
-        </code>
-      </pre>
+  <div class="wrapper">
+    <div class="container">
+      <div class="posts">
+        <div class="content">
+          <img src="images/404.png" alt="404-not-found" width="85%">
+          <p>找不到你要看的頁面喔</p>
+          <a href="http://blog.annideas.com/">回到Annideas首頁</a>
+        </div>
+      </div>
     </div>
   </div>
 </body>
