@@ -34,6 +34,11 @@ activate :disqus do |d|
   d.shortname = 'otiannie5' # Replace with your Disqus shortname.
 end
 
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-51807616-2' # Replace with your property ID.
+  ga.domain_name = 'annideas.com'
+end
+
 require "builder"
 
 page "/feed.xml", layout: false
