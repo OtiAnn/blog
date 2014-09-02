@@ -17,4 +17,3 @@ gem "middleman-disqus"
 
 #for config.ru try_static
 gem "rack-contrib"
-gem "middleman-google-analytics"
