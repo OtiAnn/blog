@@ -9,7 +9,7 @@ tags: Git, Source Tree
 自從上次透過[Udemy的課程](http://otiannie5-blog.logdown.com/posts/197211-rails-girls005-through-udemy-online-courseware-blog)，跟著課程影片完成了一個部落格後，Rails Girls 教練跟我說：「妳有沒有想要加入部落格的功能？或想要改善的？自己重新做一個看看如何？」聽完沒有多想，立馬覺得應該要自己刻一個看看，就行動了！
 
 
-###Source Tree
+#Source Tree
 
 這次在刻部落格的過程中，教練推薦了一個軟體讓我可以比較 friendly 控制 Git，這個軟體就是「[Source Tree](http://superbil.github.io/slide/sourcetree/)」。
 
@@ -20,7 +20,7 @@ Source Tree 讓我更清楚之前在 Terminal 中打的 git 指令所在做的�
 不過也許是先前的習慣很難改變，所以我只有在最後要 commit 時才會到 Source Tree 中，點選每一次 commit 時的檔案，可以讓 commit 更清楚！
 
 
-###Git Data Transport Commands
+#Git Data Transport Commands
 
 <img alt="Source Tree Example" width="80%" src="http://i.stack.imgur.com/MgaV9.png">
 

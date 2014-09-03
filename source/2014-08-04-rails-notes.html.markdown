@@ -9,7 +9,7 @@ tags: Rails, Postgres
 這裡的筆記不一定是最佳解，但是是能夠work的！就是給自己提個醒，會持續更新，有更佳解會來修改！
 
 
-###修改rails generate
+#修改rails generate
 
 我不喜歡在rails generate something 時，產生一堆奇奇怪怪用不到的東西，我可以...
 
@@ -36,7 +36,7 @@ end
 ~~~
 
 
-###預設用pg資料庫
+#預設用pg資料庫
 
 我想要在新增專案時就設定好我要使用postgres！
 
@@ -47,7 +47,7 @@ $ rails new myproject -d postgresql
 ~~~
 
 
-###清掉錯誤的table
+#清掉錯誤的table
 
 把某個model刪掉後，又要再次用它，發現噴很多錯，因為沒刪乾淨，這時可以進入console把他刪乾淨...
 

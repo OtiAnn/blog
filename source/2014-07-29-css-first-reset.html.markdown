@@ -19,7 +19,7 @@ CSS Tools: Reset CSS
 自己在開發網頁的過程中，都是以Google Chrome為主，偶爾打開Safari瞧瞧，沒太大不同就不管了(囧..)
 
 
-###CSS Tools: Reset CSS
+#CSS Tools: Reset CSS
 
 以後開發網頁的第一件事，就是先CSS Reset！
 

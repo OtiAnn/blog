@@ -28,7 +28,7 @@ Rails 有很多自己的Helper，例如：`link_to`就幫我們把字串變成�
 (其實從很多大大的文章中都可以看到，當View中太多邏輯，會造成效能減弱，要做判斷的部分最好移到Controller或Model，讓View直接呈現最後結果即可)
 
 
-###利用Helper整理選單/連結列的selected style
+#利用Helper整理選單/連結列的selected style
 
 如果希望做出類似以下這種選單，選了連結後，選單的style會改變：
 

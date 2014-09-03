@@ -17,7 +17,7 @@ tags: Gem, Rails
 ---
 
 
-###will_paginate
+#will_paginate
 
 * 首先先裝 **will_paginate gem**
 
@@ -42,7 +42,7 @@ end
 ~~~
 
 
-###ransack
+#ransack
 
 * 再來裝 **ransack gem**
 `gem "ransack", github: "activerecord-hackery/ransack", branch: "rails-4.1"`

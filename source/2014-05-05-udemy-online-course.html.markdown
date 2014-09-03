@@ -11,7 +11,7 @@ Rails Girls 活動後，一直處於自學而沒有完整課程的訓練，
 於是，一個偶然，我 遇到了 Udemy ... XDD
 
 
-###Learn Ruby on Rails from Scratch - Udemy 線上課程
+#Learn Ruby on Rails from Scratch - Udemy 線上課程
 
 [Learn Ryby on Rails from Scratch](https://www.udemy.com/learn-ruby-on-rails-from-scratch/) 是 [Udemy](https://www.udemy.com/courses/)線上平台中所開設的影音課程之一，當初會發現這堂課程其實是在手機的 APP Store 中看到的，他們的課程也提供行動學習，在手機中聽了幾分鐘就發現自己必須立刻開電腦與老師同步學習才行。下方畫面是跟著老師一同製作完成後的部落格畫面：
 <img alt="Blog試作1" width="100%" src="http://user-image.logdown.io/user/7443/blog/7374/post/197211/mNgph8qIR8iHlArPRx3N_%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202014-05-05%2015.55.35.png">
@@ -24,9 +24,9 @@ Udemy 課程結業證明：
 課程總共分成 38 個講座，每一個講座為一段 10 分鐘～ 20 分鐘的講解影片，全程都是英文內容，沒有字幕，所以可以順便練聽力XD 每個大章節講完會有一段小筆試，加深觀念。老師的開發環境是 Windows ，只是老師使用的 Rails 並非最新的第四版，因此有些 gem 的寫法是不通過的，不過也幸好經過這次的學習，我學會自己搜尋問題，了解解決方法，而且也把之前在 Rails Girls 活動中學的功能加進去，感覺踏實許多呢！
 
 
-###Learn Ruby on Rails from Scratch - 課程大綱：
+#Learn Ruby on Rails from Scratch - 課程大綱：
 
-####節 1 - Environment Set Up and Deployment
+##節 1 - Environment Set Up and Deployment
 
 ~~~
   講座 1: Introduction to the Course 07:43
@@ -40,7 +40,7 @@ Udemy 課程結業證明：
   測驗 1: Introduction to Ruby on Rails
 ~~~
 
-####節 2 - Ruby Programming Language
+##節 2 - Ruby Programming Language
 
 ~~~
   講座 9: More About Ruby Language 09:10
@@ -51,7 +51,7 @@ Udemy 課程結業證明：
   測驗 2: Ruby Language Basics
 ~~~
 
-####節 3 - Controller Views and Routes
+##節 3 - Controller Views and Routes
 
 ~~~
   講座 14: Rails App Framework Structure 13:52
@@ -62,7 +62,7 @@ Udemy 課程結業證明：
   測驗 3: Controller Views and Routes
 ~~~
 
-####節 4 - Working with Models and Database
+##節 4 - Working with Models and Database
 
 ~~~
   講座 19: Database Planning and Model Creation - Part 1 07:19
@@ -75,7 +75,7 @@ Udemy 課程結業證明：
   測驗 4: Models and databases
 ~~~
 
-####節 5 - Scaffolding and Active Admin
+##節 5 - Scaffolding and Active Admin
 
 ~~~
   講座 26: Scaffolding in Rails 16:38
@@ -85,7 +85,7 @@ Udemy 課程結業證明：
   測驗 5: Scaffolding and Active Admin
 ~~~
 
-####節 6 - Layout, Presentation and Testing
+##節 6 - Layout, Presentation and Testing
 
 ~~~
   講座 30: HTML, CSS and intro to Layouts 16:23
@@ -97,7 +97,7 @@ Udemy 課程結業證明：
   測驗 6: Layout and Presentation
 ~~~
 
-####節 7 - Testing and Final Deployment
+##節 7 - Testing and Final Deployment
 
 ~~~
   講座 36: Running Tests - Part 1 13:01
