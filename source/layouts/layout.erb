@@ -9,7 +9,7 @@
     <meta content="Annie" name="author" />
     <meta content="安妮" name="author" />
     <meta content="OtiAnn" name="author" />
-    <meta content="<%= current_page.data.title %>｜Annideas?" name="title" />
+    <meta content="<%= "Annideas #{current_page.data.title}" || "Annideas?" %>" name="title" />
     <% if current_article %>
       <meta content="http://blog.annideas.com<%= current_article.url %>" name="url" />
     <% else %>
@@ -25,7 +25,7 @@
     <meta content="Annie" property="og:author" />
     <meta content="安妮" property="og:author" />
     <meta content="OtiAnn" property="og:author" />
-    <meta content="<%= current_page.data.title %>｜Annideas?" property="og:title" />
+    <meta content="<%= "Annideas #{current_page.data.title}" || "Annideas?" %>" property="og:title" />
     <% if current_article %>
       <meta content="http://blog.annideas.com<%= current_article.url %>" property="og:url" />
     <% else %>
@@ -46,7 +46,7 @@
 
     <link rel="shortcut icon" href="/images/icon.png"/>
 
-    <title><%= "Annideas #{current_page.data.title}" || "Annideas" %></title>
+    <title><%= "Annideas #{current_page.data.title}" || "Annideas?" %></title>
     <%= stylesheet_link_tag "normalize", "all" %>
     <%= javascript_include_tag  "all" %>
   </head>
