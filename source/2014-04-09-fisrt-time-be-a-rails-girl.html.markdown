@@ -2,6 +2,7 @@
 title: » 第一次成為Rails Girls @Taipei
 date: 2014-04-09 09:09 UTC
 tags: Rails Girls, Codecademy, Nitrous
+desc: 我是OtiAnn，這篇文章是分享一個非本科生參加Rails Girls Taipei活動後的心得分享。
 ---
 
 第一次成為 Rails Girls！(☆_☆)

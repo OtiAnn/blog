@@ -2,6 +2,7 @@
 title: » Git 版本控制
 date: 2014-05-17 09:41 UTC
 tags: Git, Source Tree
+desc: 我是OtiAnn，這篇文章是介紹Source Tree這個軟體及簡單的Git概念。
 ---
 
 **人生不能砍掉重練，寫程式可以！**

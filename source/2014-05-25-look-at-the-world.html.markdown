@@ -2,6 +2,7 @@
 title: » 看看世界-多看前輩的code
 date: 2014-05-25 09:44 UTC
 tags: Rails Girls
+desc: 我是OtiAnn，這篇文章是檢討寫code的格式該注意的禮節。
 ---
 
 走出自己的 sublime 看看其他人的 code 吧！

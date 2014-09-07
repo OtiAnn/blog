@@ -2,6 +2,7 @@
 title: » 用Rails Helper幫你打掃Code
 date: 2014-07-29 10:09 UTC
 tags: Rails
+desc: 我是OtiAnn，這篇文章是說明rails的helper的好處，以及實際的做法。
 ---
 
 噢，這篇在說自製Helper！

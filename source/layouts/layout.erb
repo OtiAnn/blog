@@ -9,20 +9,32 @@
     <meta content="Annie" name="author" />
     <meta content="安妮" name="author" />
     <meta content="OtiAnn" name="author" />
-    <meta content="Annideas?" name="title" />
+    <meta content="<%= current_page.data.title+' | ' %>Annideas?" name="title" />
     <meta content="http://blog.annideas.com/" name="url" />
     <meta content="website" name="type" />
-    <meta content="我是OtiAnn，Ruby on Rails的初學者，2014年3月，參與了Rails Girls Taipei的活動，透過學習Ruby on Rails，了解許多程式概念。這篇Blog記錄著學習的內容、心得想法，可能有些想法有誤差，也請前輩們多多指教，謝謝 :)" name="description" />
+    <% if current_article %>
+      <meta content="<%= current_article.metadata[:page]["desc"] %>" name="description" />
+    <% else %>
+      <meta content="我是OtiAnn，Ruby on Rails的初學者，2014年3月，參與了Rails Girls Taipei的活動，透過學習Ruby on Rails，了解許多程式概念。這篇Blog記錄著學習的內容、心得想法，可能有些想法有誤差，也請前輩們多多指教，謝謝 :)" name="description" />
+    <% end %>
     <meta content="http://blog.annideas.com/images/icon2.png" property="og:image">
     <meta content="Annie" property="og:author" />
     <meta content="安妮" property="og:author" />
     <meta content="OtiAnn" property="og:author" />
-    <meta content="Annideas?" property="og:title" />
+    <meta content="<%= current_page.data.title+' | ' %>Annideas?" property="og:title" />
     <meta content="http://blog.annideas.com/" property="og:url" />
     <meta content="website" property="og:type" />
-    <meta content="我是OtiAnn，Ruby on Rails的初學者，2014年3月，參與了Rails Girls Taipei的活動，透過學習Ruby on Rails，了解許多程式概念。這篇Blog記錄著學習的內容、心得想法，可能有些想法有誤差，也請前輩們多多指教，謝謝 :)" property="og:description" />
+    <% if current_article %>
+      <meta content="<%= current_article.metadata[:page]["desc"] %>" property="og:description" />
+    <% else %>
+      <meta content="我是OtiAnn，Ruby on Rails的初學者，2014年3月，參與了Rails Girls Taipei的活動，透過學習Ruby on Rails，了解許多程式概念。這篇Blog記錄著學習的內容、心得想法，可能有些想法有誤差，也請前輩們多多指教，謝謝 :)" property="og:description" />
+    <% end %>
     <meta content="Annideas?" itemprop="name" />
-    <meta content="我是OtiAnn，Ruby on Rails的初學者，2014年3月，參與了Rails Girls Taipei的活動，透過學習Ruby on Rails，了解許多程式概念。這篇Blog記錄著學習的內容、心得想法，可能有些想法有誤差，也請前輩們多多指教，謝謝 :)" itemprop="description" />
+    <% if current_article %>
+      <meta content="<%= current_article.metadata[:page]["desc"] %>" itemprop="description" />
+    <% else %>
+      <meta content="我是OtiAnn，Ruby on Rails的初學者，2014年3月，參與了Rails Girls Taipei的活動，透過學習Ruby on Rails，了解許多程式概念。這篇Blog記錄著學習的內容、心得想法，可能有些想法有誤差，也請前輩們多多指教，謝謝 :)" itemprop="description" />
+    <% end %>
 
     <link rel="shortcut icon" href="/images/icon.png"/>
 

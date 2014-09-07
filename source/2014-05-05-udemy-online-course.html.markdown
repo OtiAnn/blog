@@ -2,6 +2,7 @@
 title: » Udemy課程-用Rails打造部落格
 date: 2014-05-05 09:36 UTC
 tags: Udemy, Rails
+desc: 我是OtiAnn，這篇文章是介紹Udemy中的Rails課程內容。
 ---
 
 Rails Girls 活動後，一直處於自學而沒有完整課程的訓練，
