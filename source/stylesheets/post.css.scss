@@ -54,12 +54,12 @@
       font-size: 34px;
     }
     h2 {
-      font-size: 32px;
+      font-size: 28px;
     }
     h1,h3 {
       font-size: 30px;
     }
-    h1, h2, h3 {
+    h1, h3 {
       &:before, &:after {
         content: " ";
         display: block;
@@ -84,7 +84,7 @@
       }
     }
 
-    h1, h2, h3 {
+    h1 {
       &:before {
         left: -20px;
         top: -10px;
@@ -95,6 +95,11 @@
         top: -8px;
         border-left: 20px solid #D13030;
       }
+    }
+    h2,h3 {
+      padding-left: 10px;
+      padding-top: 6px;
+      border-left: 10px solid #FF9726;
     }
 
     h4 {
@@ -207,6 +212,12 @@
     }
     img {
       max-width: 100%;
+      box-shadow: 2px 2px 5px 1px #999;
+      &:hover {
+        box-shadow: 2px 2px 6px 3px #999;
+        position: relative;
+        top: -2px;
+      }
     }
     strong {
       font-weight: bolder;
