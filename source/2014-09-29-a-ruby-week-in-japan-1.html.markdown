@@ -2,7 +2,7 @@
 title: » A ruby week in Japan (1)
 date: 2014-09-29 07:51 UTC
 tags: Ruby, Rails, Rails Girls, Ruby Kaigi
-desc: 我是OtiAnn，這篇文章要分享2014年前往日本參加RubyKaigi前，參觀日本IT公司的心得！
+desc: 很開心可以入選RubyKaigi 2014 獎學金辦法，這一切都要感謝今年三月參加了Rails Girls Taipei，才有接下來這一連串的驚喜！我是OtiAnn，這篇文章要分享2014年前往日本參加RubyKaigi那一週，參觀日本IT公司的心得！
 ---
 
 很開心可以入選[RubyKaigi 2014 獎學金辦法]，這一切都要感謝今年三月參加了[Rails Girls Taipei]，才有接下來這一連串的驚喜！
