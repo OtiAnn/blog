@@ -2,7 +2,7 @@
 title: » A ruby week in Japan (1)
 date: 2014-09-29 07:51 UTC
 tags: Ruby, Rails, Rails Girls, Ruby Kaigi
-desc:
+desc: 我是OtiAnn，這篇文章要分享2014年前往日本參加RubyKaigi前，參觀日本IT公司的心得！
 ---
 
 很開心可以入選[RubyKaigi 2014 獎學金辦法]，這一切都要感謝今年三月參加了[Rails Girls Taipei]，才有接下來這一連串的驚喜！
@@ -69,7 +69,7 @@ LINE公司的介紹很用心！他們多是以台灣為角度在敘述公司情�
 
 ##万葉
 
-隔天下午我們來到了位在神保町的[万葉]，這家公司令我非常憧憬呢！照片中與我們對話的女士是万葉的代表取締役(應該等同於社長了)[大場寧子]，哈！有沒有發現與CrowdWorks的CTO一樣叫做大場，原來他們是夫妻啊！夫妻都在做Rails的工作真是太酷了！不止這樣，在大場女士隔壁的那位是万葉的取締役[久保優子]，她致力于推廣RailsGirls，也是本次[Ruby Kaigi]的講者，而且她的老公[Sasada先生]也是很強的人啊！與前面所提的Shibata先生一樣都是Ruby Committer，Sasada先生目前也跟Matz一起在[Heroku]的團隊中呢！
+隔天下午我們來到了位在神保町的[万葉]，這家公司令我非常憧憬呢！照片中與我們對話的女士是万葉的代表取締役(應該等同於社長了)[大場寧子]，哈！有沒有發現與CrowdWorks的CTO一樣叫做大場，原來他們是夫妻啊！夫妻都在做Rails的工作真是太酷了！不止這樣，在大場女士隔壁的那位是万葉的開發者[鳥井雪]，她致力于推廣RailsGirls，也是本次[Ruby Kaigi]的講者，而且她的老公[Sasada先生]也是很強的人啊！與前面所提的Shibata先生一樣都是Ruby Committer，Sasada先生目前也跟Matz一起在[Heroku]的團隊中呢！
 <img src="/images/Japan/everyleaf.jpg" alt="聽万葉的社長大場寧子分享公司的概況">
 万葉這家公司有一半的工程師都是女生噢！他們說工作的氣氛非常...吵雜哈哈哈，透過閒談後，才知道這麼厲害的兩位女士，她們本身都是非本科生呢！都是自己對寫程式很有興趣，這著實給我很大的鼓舞啊！她們都是利用自己閒暇時間精進技術，很值得學習！她們兩位在這次[Ruby Kaigi]中的演說，也很振奮人心！之後再好好的分享！
 
@@ -100,7 +100,7 @@ LINE公司的介紹很用心！他們多是以台灣為角度在敘述公司情�
 [Ruby Hiroba 2014的生活發表會]: http://rubyhiroba.org/2014/presentation.html/
 [.tokyo]: http://hello.tokyo/en/
 [大場寧子]: https://twitter.com/nay3/
-[久保優子]: https://twitter.com/yotii23/
+[鳥井雪]: https://twitter.com/yotii23/
 [Sasada先生]: https://twitter.com/koichisasada/
 [Heroku]: https://www.heroku.com/
 [Ruby Kaigi]: http://rubykaigi.org/2014/
