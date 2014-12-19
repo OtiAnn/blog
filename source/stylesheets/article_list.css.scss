@@ -11,6 +11,7 @@
     }
   }
 }
+
 .articleList {
   font-size: 27px;
   line-height: 27px;
@@ -45,6 +46,21 @@
         color: #3b3b3b;
         background-color: transparent;
       }
+    }
+  }
+}
+.articleList.ironman {
+  font-size: 24px;
+  width: 900px;
+  li {
+    list-style: none;
+    .date {
+      margin-top: -2px;
+      font-size: 20px;
+    }
+    .title {
+      left: 35%;
+      font-size: 22px;
     }
   }
 }
