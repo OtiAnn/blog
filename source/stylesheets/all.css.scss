@@ -71,10 +71,12 @@ a {
   color: #3b3b3b;
 }
 header {
+  transition: background .5s;
   width: 100%;
   margin: 75px auto;
   text-align: center;
   h1 {
+    transition: margin .5s;
     font-size: 52.5px;
     font-weight: bolder;
     font-family: Verdana;
@@ -91,6 +93,7 @@ header {
   }
 }
 .navbar {
+  transition: all .5s;
   position: relative;
   width: 100%;
   height: 37.5px;
@@ -121,11 +124,10 @@ header {
 }
 footer {
   width: 100%;
-  margin: 0 auto -75px;
-  padding-top: 100px;
   text-align: center;
   position: absolute;
-  bottom: 25px;
+  bottom: -100px;
+  padding-bottom: 25px;
   left: 0;
   p {
     font-size: 16.5px;
