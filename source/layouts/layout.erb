@@ -43,9 +43,9 @@
 
     <title><%= "Annideas #{current_page.data.title}" || "Annideas?" %></title>
     <link rel="shortcut icon" href="/images/icon.png"/>
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
     <%= stylesheet_link_tag "normalize", "all" %>
     <%= javascript_include_tag  "all" %>
-    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
   </head>
 
   <body>
@@ -53,14 +53,14 @@
       <header id="header">
         <h1><a href="/">Annideas?</a></h1>
         <p>Do a little more of what you want to do every day, <br>until your idea becomes what's real.</p>
+        <ul class="navbar" id="navbar">
+          <li><a href="/about">About</a></li>
+          <li><a href="/articles">Articles</a></li>
+          <li><a href="/tags">Tags</a></li>
+          <li><a href="http://feeds.feedburner.com/Annideas">Feed</a></li>
+          <li><a href="/ironman7" class="last">鐵人賽文章</a></li>
+        </ul>
       </header>
-      <ul class="navbar" id="navbar">
-        <li><a href="/about">About</a></li>
-        <li><a href="/articles">Articles</a></li>
-        <li><a href="/tags">Tags</a></li>
-        <li><a href="http://feeds.feedburner.com/Annideas">Feed</a></li>
-        <li><a href="/ironman7" class="last">鐵人賽文章</a></li>
-      </ul>
       <div class="container" id="container">
         <%= yield %>
       </div>
@@ -76,81 +76,6 @@
 
       ga('create', 'UA-51807616-2', 'auto');
       ga('send', 'pageview');
-    </script>
-    <script>
-      var navbarYOffset = $('#navbar').offset().top;
-      $(window).scroll(function(){
-        if(window.scrollY > navbarYOffset){
-          $('header').css({
-                          'margin': '0',
-                          'text-align': 'left',
-                          'position': 'fixed',
-                          'left': '0',
-                          'top': '0',
-                          'border-bottom': '1px solid #aaa',
-                          'background-color': '#FFF',
-                          'z-index': '998'
-                          });
-          $('header').find('h1').css({
-                          'font-size': '35px',
-                          'margin': '10px',
-                          'padding-left': '150px',
-                          'letter-spacing': '-3px'
-                          });
-          $('header').find('p').css({
-                          'display': 'none'
-                          });
-          $('.navbar').css({
-                          'position': 'fixed',
-                          'top': '0',
-                          'border-top': 'none',
-                          'z-index': '999'
-                          });
-          $('.navbar').find('a').css({
-                          'padding-top': '23px',
-                          'margin-top': '0'
-                          });
-          $('.container').css({
-                          'position': 'relative',
-                          'top': '316px'
-                          });
-          $('footer').css({
-                          'bottom': '-400px'
-          });
-        }else{
-          $('header').css({
-                          'margin': '75px auto',
-                          'text-align': 'center',
-                          'position': 'static',
-                          'border-bottom': 'none',
-                          'background': 'none'
-                          });
-          $('header').find('h1').css({
-                          'font-size': '52.5px',
-                          'margin': '0 0 15px',
-                          'padding-left': '0',
-                          'letter-spacing': '-5px'
-                          });
-          $('header').find('p').css({
-                          'display': 'block'
-                          });
-          $('.navbar').css({
-                          'position': 'relative',
-                          'border-top': '1px solid #777'
-                          });
-          $('.navbar').find('a').css({
-                          'padding-top': '5px',
-                          'margin-top': '-1px'
-                          });
-          $('.container').css({
-                          'position': 'static',
-                          'top': '0'
-                          });
-          $('footer').css({
-                          'bottom': '-100px'
-          });
-        }
-      });
     </script>
   </body>
 </html>

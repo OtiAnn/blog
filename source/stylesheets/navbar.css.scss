@@ -1,0 +1,41 @@
+.fixed-on-top {
+	margin: 0;
+  text-align: left;
+  position: fixed;
+  left: 0;
+  top: 0;
+  border-bottom: 1px solid #aaa;
+  background-color: #FFF;
+  z-index: 998;
+  h1 {
+		font-size: 35px;
+		margin: 10px;
+		padding-left: 150px;
+		letter-spacing: -3px;
+  }
+  p {
+		display: none;
+  }
+	.navbar {
+		position: absolute;
+		top: 0;
+		display: inline-block;
+		border-top: none;
+		z-index: 999;
+		margin-top: 0;
+		width: auto;
+		right: 150px;
+		a {
+			padding-top: 23px;
+			margin-top: 0;
+		}
+	}
+}
+.re-position-for-navbar {
+	position: relative;
+	top: 316px;
+}
+
+.re-position-for-content {
+	bottom: -400px;
+}
