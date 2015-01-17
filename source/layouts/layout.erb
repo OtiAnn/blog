@@ -6,7 +6,7 @@
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <!-- Use title if it's in the page YAML frontmatter -->
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta name="viewport" content="width=device-width; initial-scale=1.0" />
     <meta content="OtiAnn" name="author" />
     <meta content="<%= "Annideas #{current_page.data.title}" || "Annideas?" %>" name="title" />
     <% if current_article %>
@@ -53,6 +53,13 @@
       <header id="header">
         <h1><a href="/">Annideas?</a></h1>
         <p>Do a little more of what you want to do every day, <br>until your idea becomes what's real.</p>
+        <ul class="navbar-480 lsf-icon" title="menu">
+          <li><a href="/about">About</a></li>
+          <li><a href="/articles">Articles</a></li>
+          <li><a href="/tags">Tags</a></li>
+          <li><a href="http://feeds.feedburner.com/Annideas">Feed</a></li>
+          <li><a href="/ironman7" class="last">鐵人賽文章</a></li>
+        </ul>
         <ul class="navbar" id="navbar">
           <li><a href="/about">About</a></li>
           <li><a href="/articles">Articles</a></li>
@@ -61,7 +68,7 @@
           <li><a href="/ironman7" class="last">鐵人賽文章</a></li>
         </ul>
       </header>
-      <div class="container" id="container">
+      <div class="container">
         <%= yield %>
       </div>
       <footer>

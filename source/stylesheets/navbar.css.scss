@@ -35,6 +35,40 @@
 	position: relative;
 	top: 316px;
 }
+@media screen and (max-width: 480px) {
+	.fixed-on-top {
+		text-align: center;
+		h1 {
+			padding-left: 40%;
+		}
+		.navbar {
+			display: none;
+		}
+		.navbar-480 {
+			top: 12px;
+			&.lsf-icon {
+	      &:before {
+	        right: -50px;
+	      }
+	    }
+	    &.open {
+	    	right: -40%;
+		    &.lsf-icon {
+		      &:before {
+		        position: relative;
+		        right: -40%;
+		      }
+		    }
+		  }
+		}
+	}
+	.re-position-for-navbar-480 {
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 999;
+	}
+}
 
 .re-position-for-content {
 	bottom: -400px;
