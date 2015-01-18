@@ -64,3 +64,35 @@
     }
   }
 }
+@media screen and (max-width: 480px) {
+  .articleList {
+    li {
+      .date {
+        left: inherit;
+        right: 20px;
+        padding-top: 30px;
+        font-size: 15.5px;
+      }
+      .title {
+        left: 20px;
+        margin-left: 0;
+      }
+      .summary {
+        padding: 80px 20px 0;
+        font-size: 18.5px;
+      }
+    }
+  }
+  .articleList.ironman {
+    width: 100%;
+    li {
+      .date {
+        display: none;
+      }
+      .title {
+        left: 0;
+        font-size: 15.5px;
+      }
+    }
+  }
+}
