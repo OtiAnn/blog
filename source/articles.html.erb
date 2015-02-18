@@ -1,37 +1,12 @@
 ---
-pageable: true
-per_page: 10
+pageable: false
 ---
 
 <ul class="articleList">
-  <% page_articles.each_with_index do |article| %>
-    <%# unless article.metadata[:page]["tags"] == "ironman7" %>
+  <% select_articles(page_articles).each do |article| %>
       <li style="border: none; margin-bottom: 20px;">
         <span class="date"><%= article.date.strftime('%b %d, %Y') %></span>
         <span class="title"><%= link_to article.title, article %></span>
-        <!-- <div class="summary"><%#= article.summary(100) %></div> -->
       </li>
-    <%# end %>
   <% end %>
 </ul>
-<div class="posts">
-  <div class="content">
-    <div class="paginate articles">
-      <% if paginate && num_pages > 1 %>
-        <% if prev_page %>
-          <span><%= link_to 'Previous page', prev_page %></span>
-        <% else %>
-          <span class="noLink">Previous page</span>
-        <% end %>
-        <span>Page <%= page_number %> of <%= num_pages %></span>
-      <% end %>
-      <% if paginate %>
-        <% if next_page %>
-          <span><%= link_to 'Next page', next_page %></span>
-        <% else %>
-          <span class="noLink">Next page</span>
-        <% end %>
-      <% end %>
-    </div>
-  </div>
-</div>

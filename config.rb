@@ -22,7 +22,7 @@ activate :blog do |blog|
   # blog.default_extension = ".markdown"
 
   blog.tag_template = "tag.html"
-  blog.calendar_template = "calendar.html"
+  # blog.calendar_template = "calendar.html"
 
   # Enable pagination
   blog.paginate = true
@@ -79,11 +79,18 @@ page "/feed.xml", layout: false
 # activate :livereload
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def select_articles page_articles
+    blog.articles.select do |article|
+      article.metadata[:page]["tags"] != '鐵人賽文章'
+    end
+  end
+  def select_ironman articles
+    blog.articles.select do |article|
+      article.metadata[:page]["tags"] == '鐵人賽文章'
+    end
+  end
+end
 
 activate :directory_indexes
 
