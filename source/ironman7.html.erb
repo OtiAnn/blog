@@ -14,7 +14,7 @@
   <% select_ironman(blog.articles).each_with_index do |article, index| %>
     <li style="border: none; margin-bottom: 20px;">
       <span class="date"><%= article.date.strftime('%b %d, %Y') %></span>
-      <span class="title"><%= link_to "Ruby女孩(#{10-index})#{article.title}", article %></span>
+      <span class="title"><%= link_to "Ruby女孩(#{7-index})#{article.title}", article %></span>
     </li>
   <% end %>
 </ul>
