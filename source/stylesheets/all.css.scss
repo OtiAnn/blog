@@ -182,6 +182,16 @@ header {
     }
   }
 }
+.readMore {
+  display: inline-block;
+  width: 750px;
+  text-align: right;
+  cursor: pointer;
+}
+.selected {
+  color: #D13030;
+  border-top: 10px solid #D13030;
+}
 footer {
   width: 100%;
   text-align: center;
