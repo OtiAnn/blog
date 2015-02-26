@@ -2,10 +2,10 @@
 title: » 重構Ruby程式碼(學習筆記)
 date: 2015-02-25 10:33 UTC
 tags: Ruby, Refactoring
-desc: 這篇文章是閱讀Refactoring: Ruby Edition這本書的學習筆記，會記錄在書中看到的觀念，以及書中提供的重構例子。
+desc: 我是OtiAnn，這篇文章是閱讀『Refactoring:RubyEdition』這本書的學習筆記，會記錄在書中看到的觀念，以及書中提供的重構範例。
 ---
 
-這篇文章是閱讀Refactoring: Ruby Edition這本書的學習筆記，會記錄在書中看到的觀念，以及書中提供的重構例子。
+這篇文章是閱讀『Refactoring: Ruby Edition』這本書的學習筆記，會記錄在書中看到的觀念，以及書中提供的重構範例。
 
 #重構初體驗
 
