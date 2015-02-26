@@ -17,3 +17,5 @@ gem "middleman-disqus"
 
 #for config.ru try_static
 gem "rack-contrib"
+
+gem "pry"

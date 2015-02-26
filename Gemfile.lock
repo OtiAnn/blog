@@ -10,6 +10,7 @@ GEM
     addressable (2.3.6)
     builder (3.2.2)
     chunky_png (1.3.1)
+    coderay (1.1.0)
     coffee-script (2.2.0)
       coffee-script-source
       execjs
@@ -36,6 +37,7 @@ GEM
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
       rb-kqueue (>= 0.2)
+    method_source (0.8.2)
     middleman (3.3.3)
       coffee-script (~> 2.2.0)
       compass (>= 0.12.4)
@@ -84,6 +86,10 @@ GEM
       tilt (~> 1.4.1)
     padrino-support (0.12.2)
       activesupport (>= 3.1)
+    pry (0.10.0)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
     rack (1.5.2)
     rack-contrib (1.1.0)
       rack (>= 0.9.1)
@@ -96,6 +102,7 @@ GEM
       ffi (>= 0.5.0)
     rouge (1.6.1)
     sass (3.2.19)
+    slop (3.6.0)
     sprockets (2.12.1)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -126,5 +133,6 @@ DEPENDENCIES
   middleman-disqus
   middleman-syntax
   nokogiri
+  pry
   rack-contrib
   rouge

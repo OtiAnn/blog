@@ -90,6 +90,10 @@ helpers do
       article.metadata[:page]["tags"] == '鐵人賽文章'
     end
   end
+  def nav_li name, url
+    is_selected = "/#{request.path}" == "#{url}/index.html" ? "selected" : nil
+    link_to name, url, class: is_selected
+  end
 end
 
 activate :directory_indexes
