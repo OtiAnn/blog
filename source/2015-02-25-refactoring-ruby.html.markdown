@@ -122,7 +122,28 @@ end
 
 ##第一步
 
-(Todo..)
+- 先寫測試(來源：[Taian's github](https://github.com/taiansu/refactoring-ruby))
+
+~~~ruby
+require 'minitest/autorun'
+require_relative 'ch1'
+
+describe Customer, "#statement" do
+  it "generate statement" do
+    movie = Movie.new("Star War", Movie::NEW_RELEASE)
+    rental = Rental.new(movie, 3)
+    customer = Customer.new("John Doe")
+
+    customer.add_rental(rental)
+    customer.statement.must_equal <<-EOS.gsub(/^\s+/, '').gsub(/\n$/,'')
+      Rental Record for John Doe
+      Star War\t9
+      Amount owed is 9
+      You earned 2 frequent renter points
+    EOS
+  end
+end
+~~~
 
 > 小提示：進行重構之前，要先準備好一段可靠的測試。一步一步地進行修改與測試，犯錯時才好發現bug的位置。
 
@@ -547,6 +568,10 @@ frequent_renter_points(days_rented)|frequent_renter_points()|total_charge()
 
 **最後...要來處理繼承！**
 
+- 為了替換掉case語句，利用Replace Type Code with State/Strategy方式。
+  - 自定義一個price_code的setter方法(因為再往後要做好玩的事情)
+  - 下方是原本的：
+
 ~~~ruby
 class Movie
   REGULAR     = 0
@@ -561,6 +586,8 @@ class Movie
   end
 end
 ~~~
+
+- 修改後
 
 ~~~ruby
 class Movie
@@ -703,7 +730,7 @@ end
 
 ~~~ruby
 # calling code
-movie = Movie.new("模仿遊戲", Moview::NEW_RELEASE)
+movie = Movie.new("模仿遊戲", Movie::NEW_RELEASE)
 # and later...
 movie.price_code = Movie::REGULAR
 
@@ -789,11 +816,11 @@ class Rental
   end
 
   def charge
-    @movie.charge(days_rented)
+    movie.charge(days_rented)
   end
   
   def frequent_renter_points
-    @movie.frequent_renter_points(days_rented)
+    movie.frequent_renter_points(days_rented)
   end
 end
 ~~~
@@ -899,6 +926,33 @@ class NewReleasePrice
 
   def frequent_renter_points(days_rented)
     days_rented > 1 ? 2 : 1
+  end
+end
+~~~
+
+
+**最終程式碼的Test**
+
+- 因為Movie.new要傳的參數改變了，所以測試也要修改一下：
+
+~~~ruby
+require 'minitest/autorun'
+require_relative 'ch1'
+
+describe Customer, "#statement" do
+  it "generate statement" do
+    # movie = Movie.new("Star War", Movie::NEW_RELEASE) # 這行是原本的
+    movie = Movie.new("Star War", NewReleasePrice.new) # 改成這行
+    rental = Rental.new(movie, 3)
+    customer = Customer.new("John Doe")
+
+    customer.add_rental(rental)
+    customer.statement.must_equal <<-EOS.gsub(/^\s+/, '').gsub(/\n$/,'')
+      Rental Record for John Doe
+      Star War\t9
+      Amount owed is 9
+      You earned 2 frequent renter points
+    EOS
   end
 end
 ~~~
