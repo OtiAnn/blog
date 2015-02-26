@@ -108,7 +108,7 @@
     <span class="date">Oct 08, 2014</span>
     <span class="title"><a href="http://ithelp.ithome.com.tw/question/10158861" target="_blank">Ruby女孩(8)：字串迭代小練習！</a></span>
   </li>
-  <hr style="width: 700px; color: #ccc;">
+  <hr style="max-width: 700px; color: #ccc;">
   <% select_ironman(blog.articles).each_with_index do |article, index| %>
     <li style="border: none; margin-bottom: 20px;">
       <span class="date"><%= article.date.strftime('%b %d, %Y') %></span>
