@@ -23,6 +23,9 @@
       letter-spacing: -3px;
       padding-left: 0;
       transition: none;
+      a {
+        padding: 13px 40px;
+      }
     }
     p {
       display: none;
@@ -44,16 +47,14 @@
       &.lsf-icon {
         font-size: 1.5em;
         &:before {
+          content: '\E112';
           color: #3b3b3b;
           position: absolute;
           top: 13px;
+          cursor: pointer;
         }
       }
       &.open {
-        -webkit-transition: position .5s;
-        -moz-transition: position .5s;
-        -o-transition: position .5s;
-        transition: position .5s;
         width: 100%;
         li:first-child {
           margin-top: 72px;
@@ -73,7 +74,11 @@
         }
         &.lsf-icon {
           &:before {
-            right: 0;
+            -webkit-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            -o-transform: rotate(90deg);
+            transform: rotate(90deg);
+            left: 0;
           }
         }
       }

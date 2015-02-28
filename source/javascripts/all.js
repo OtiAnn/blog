@@ -1,7 +1,7 @@
-//= require_tree .
-$().ready(function(){
+$(document).on('ready page:load', function(){
 
 	var navbarYOffset = $('#navbar').offset().top;
+
 	$(window).scroll(function(){
 	  if(window.scrollY > navbarYOffset){
 	  	$('header').addClass('fixed-on-top');
@@ -17,4 +17,5 @@ $().ready(function(){
 	$('.navbar-480').click(function(){
 		$(this).toggleClass('open');
 	});
-})
+
+});
