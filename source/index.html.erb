@@ -3,12 +3,15 @@ pageable: false
 ---
 
 <ul class="articleList">
-  <% select_articles(page_articles).first(5).each do |article| %>
-      <li>
-        <span class="date"><%= article.date.strftime('%b %d, %Y') %></span>
-        <span class="title"><%= link_to article.title, article %></span>
-        <div class="summary"><%= article.summary(100) %></div>
-      </li>
+  <% select_articles(page_articles).each do |article| %>
+	      <li>
+		      <% link_to article do %>
+		        <span class="date"><%= article.date.strftime('%b %d, %Y') %></span>
+		        <span class="title"><%= article.title %></span>
+		        <div class="summary"><%= strip_tags(article.summary(100)) %></div>
+		        <span class="tags"><%= article.tags[0] %></span>
+		      <% end %>
+	      </li>
   <% end %>
 </ul>
 <a class="readMore" href="/articles">Read More...</a>

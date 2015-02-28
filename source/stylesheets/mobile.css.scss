@@ -7,7 +7,9 @@
     bottom: -75px;
   }
   .container {
-    margin-top: 150px;
+    padding-top: 85px;
+    margin-top: 0;
+    background: rgba(238, 238, 238, 0.25);
   }
   header.header-for-mobile {
     text-align: center;
@@ -85,7 +87,7 @@
     }
   }
   .posts {
-    padding: 0 10px;
+    padding: 30px 10px;
     .header {
       font-size: 25px;
       padding-bottom: 25px;
@@ -126,12 +128,56 @@
         line-height: 1;
       }
       pre.aboutBlock {
-        line-height: 1.5;
+        p {
+          line-height: 1.6;
+        }
         .aboutLink {
           margin-top: 30px;
           font-size: 18px;
           width: auto;
         }
+      }
+    }
+  }
+  .articleList {
+    li {
+      margin: 5px 5px 10px;
+      padding: 15px;
+      border: 1px solid #ddd;
+      box-shadow: 0 0 20px -10px;
+      background: #fff;
+      position: relative;
+      a:hover {
+        color: #3b3b3b;
+      }
+      .tags {
+        display: inline-block;
+        font-size: 16px;
+        line-height: 23px;
+        border: 1px solid #ccc;
+        padding: 0 5px;
+        border-radius: 5px;
+        font-weight: bold;
+        color: #E56B6B;
+        position: absolute;
+        top: 45px;
+        right: 15px;
+      }
+      .date {
+        padding-top: 30px;
+        font-size: 14px;
+        letter-spacing: 1px;
+        left: 20px;
+      }
+      .title {
+        left: 20px;
+        margin-left: 0;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      .summary {
+        padding: 70px 0 0;
+        font-size: 16px;
       }
     }
   }

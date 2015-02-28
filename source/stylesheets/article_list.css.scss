@@ -21,6 +21,9 @@
     margin-bottom: 45px;
     padding-bottom: 45px;
     border-bottom: 1px solid #777;
+    .tags {
+      display: none;
+    }
     .date {
       position: absolute;
       left: 0;
@@ -65,24 +68,6 @@
   }
 }
 @media screen and (max-width: 480px) {
-  .articleList {
-    li {
-      .date {
-        left: inherit;
-        right: 20px;
-        padding-top: 30px;
-        font-size: 15.5px;
-      }
-      .title {
-        left: 20px;
-        margin-left: 0;
-      }
-      .summary {
-        padding: 80px 20px 0;
-        font-size: 18.5px;
-      }
-    }
-  }
   .articleList.ironman {
     width: 100%;
     li {
