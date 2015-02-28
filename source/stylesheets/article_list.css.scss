@@ -52,32 +52,3 @@
     }
   }
 }
-.articleList.ironman {
-  font-size: 24px;
-  width: 900px;
-  li {
-    list-style: none;
-    .date {
-      margin-top: -2px;
-      font-size: 20px;
-    }
-    .title {
-      left: 35%;
-      font-size: 22px;
-    }
-  }
-}
-@media screen and (max-width: 480px) {
-  .articleList.ironman {
-    width: 100%;
-    li {
-      .date {
-        display: none;
-      }
-      .title {
-        left: 0;
-        font-size: 15.5px;
-      }
-    }
-  }
-}
