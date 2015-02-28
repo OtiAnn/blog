@@ -1,13 +1,10 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 650px) {
   .re-position-for-navbar {
     position: relative;
     top: 0;
   }
   .re-position-for-content {
     bottom: -75px;
-  }
-  body {
-    background: rgba(238, 238, 238, 0.25);
   }
   .container {
     padding-top: 85px;
@@ -140,20 +137,9 @@
     }
   }
   .articleList {
-    a:hover {
-      color: #3d3d3d;
-    }
     li {
-      margin: 5px 5px 10px;
       padding: 15px;
-      border: 1px solid #ddd;
-      box-shadow: 0 0 20px -10px;
-      background: #fff;
-      position: relative;
-      a:hover {
-        color: #3b3b3b;
-      }
-      .tags {
+      .tags-480 {
         display: inline-block;
         font-size: 13px;
         line-height: 23px;
@@ -165,18 +151,20 @@
         position: absolute;
         top: 45px;
         right: 15px;
+        left: inherit;
+      }
+      .tags-normal {
+        display: none;
       }
       .date {
-        padding-top: 30px;
+        top: 45px;
         font-size: 14px;
         letter-spacing: 1px;
         left: 20px;
       }
       .title {
         left: 20px;
-        margin-left: 0;
         font-size: 20px;
-        font-weight: bold;
       }
       .summary {
         padding: 70px 0 0;
@@ -201,7 +189,7 @@
       margin-left: 5px;
     }
     .date {
-      padding-top: 0;
+      top: 0;
     }
     .date, .title {
       position: relative;

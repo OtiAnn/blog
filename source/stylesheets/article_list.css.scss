@@ -11,44 +11,63 @@
     }
   }
 }
-
 .articleList {
   font-size: 27px;
   line-height: 27px;
   letter-spacing: 1px;
   position: relative;
+  a:hover {
+    color: #3b3b3b;
+  }
   li {
-    margin-bottom: 45px;
-    padding-bottom: 45px;
-    border-bottom: 1px solid #777;
-    .tags {
+    margin: 5px 5px 10px;
+    padding: 25px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 20px -10px;
+    background: #fff;
+    position: relative;
+    .tagsBlock {
+      width: 127px;
+      position: absolute;
+      top: 52px;
+      left: 13px;
+    }
+    .tags-480 {
       display: none;
+    }
+    .tags-normal {
+      display: inline-block;
+      font-size: 16px;
+      line-height: 26px;
+      border: 1px solid #ccc;
+      padding: 0 5px;
+      border-radius: 5px;
+      font-weight: bold;
+      color: #E56B6B;
+      left: 13px;
     }
     .date {
       position: absolute;
-      left: 0;
+      left: 15px;
       font-family: monospace;
       color: #777;
-      letter-spacing: -2px;
-      font-size: 22.5px;
+      letter-spacing: 1px;
+      font-size: 16px;
     }
     .title {
       position: absolute;
-      left: 50%;
-      margin-left: -150px;
+      left: 180px;
+      font-size: 24px;
+      font-weight: bold;
       font-family: Palatino, "微軟正黑體", sans-serif;
     }
     .summary {
       padding-top: 45px;
-      padding-left: 225px;
-      font-size: 13.5px;
+      padding-left: 170px;
+      font-size: 16px;
       line-height: 1.3;
       letter-spacing: 0;
       font-family: Palatino, "微軟正黑體", sans-serif;
-      .highlight {
-        color: #3b3b3b;
-        background-color: transparent;
-      }
     }
   }
 }

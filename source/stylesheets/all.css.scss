@@ -67,6 +67,7 @@ body {
   min-height: 600px;
   position: relative;
   font-family: Palatino, "微軟正黑體", sans-serif;
+  background: rgba(238, 238, 238, 0.25);
 }
 a {
   color: #3b3b3b;
@@ -99,7 +100,7 @@ header {
   }
 }
 .navbar {
-  transition: all .5s;
+  // transition: all .5s;
   position: relative;
   width: 100%;
   height: 37.5px;
@@ -121,8 +122,7 @@ header {
     border-top: 10px solid transparent;
     margin-top: -1px;
     &:hover {
-      color: #D13030;
-      border-top: 10px solid #D13030;
+      border-top: 10px solid #3b3b3b;
     }
   }
   .last {

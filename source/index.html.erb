@@ -4,13 +4,18 @@ pageable: false
 
 <ul class="articleList">
   <% select_articles(page_articles).each do |article| %>
-	      <li>
 		      <% link_to article do %>
+	      <li>
 		        <span class="date"><%= article.date.strftime('%b %d, %Y') %></span>
 		        <span class="title"><%= article.title %></span>
 		        <div class="summary"><%= strip_tags(article.summary(100)) %></div>
-		        <span class="tags"><%= article.tags[0] %></span>
-		      <% end %>
+		        <span class="tags-480"><%= article.tags[0] %></span>
+		        <div class="tagsBlock">
+			        <% article.tags[0,2].each do |tag| %>
+				        <span class="tags-normal"><%= tag %></span>
+			        <% end %>
+		        </div>
 	      </li>
+		      <% end %>
   <% end %>
 </ul>
