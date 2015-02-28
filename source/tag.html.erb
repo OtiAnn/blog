@@ -1,39 +1,15 @@
 ---
-pageable: true
-per_page: 12
+pageable: false
 ---
 
-<div class="posts">
-  <div class="content">
-    <h4 style="text-align: center;">文章Tag：『 <%= tagname %> 』</h4>
-    <br>
-  </div>
-</div>
-
-<ul class="articleList" style="width: 80%; margin: 0 auto;">
+<ul class="articleList tags">
+  <span class="tagname"><%= tagname %></span>
   <% page_articles.each_with_index do |article| %>
-    <li style="border: none; font-size: 20px; margin: 0;">
-      <span class="date" style="font-size: 18px;">
-        <%= article.date.strftime('%b %d, %Y') %></span>
-      <span class="title"><%= link_to article.title, article %></span>
-    </li>
+    <% link_to article  do %>
+      <li>
+        <div class="title"><%= article.title %></div>
+        <div class="date"><%= article.date.strftime('%b %d, %Y') %></div>
+      </li>
+    <% end %>
   <% end %>
 </ul>
-
-<div class="posts">
-  <div class="content">
-    <div class="paginate articles">
-      <% if paginate && num_pages > 1 %>
-        <% if prev_page %>
-          <span><%= link_to 'Previous page', prev_page %></span>
-        <% end %>
-        <span>Page <%= page_number %> of <%= num_pages %></span>
-      <% end %>
-      <% if paginate %>
-        <% if next_page %>
-          <span><%= link_to 'Next page', next_page %></span>
-        <% end %>
-      <% end %>
-    </div>
-  </div>
-</div>

@@ -1,7 +1,9 @@
-<ul class="articleList" style="width: 80%; margin: 0 auto;">
+<ul class="articleList">
   <% blog.tags.each do |tag, articles| %>
-    <li style="line-height: 2; border: none; font-size: 20px; display: inline;">
-      <%= link_to "#{tag} (#{articles.size})", tag_path(tag) %>
-    </li>
+    <% link_to tag_path(tag) do %>
+	    <li>
+	      	<%= "#{tag} (#{articles.size})" %>
+	    </li>
+    <% end %>
   <% end %>
 </ul>

@@ -16,7 +16,7 @@ published: false
 Welcome Party舉辦的地點是在前一篇文章提到的[GMO]公司，看到下方的照片了嗎？來了好多人、好多大大、還有好多食物，這是我第一次參加這種Party，心情很緊張，也很興奮！
 <img src="/images/Japan/preparty.jpg" alt="Pre-Ruby Kaigi welcome Party">
 <img src="/images/Japan/preparty2.jpg" alt="Pre-Ruby Kaigi welcome Party">
-<span style="font-size:18px;display:block;width:680px;position:absolute;right:0;margin-top:-33px;">(本節目所有美食照片都來自[阿旺]XD)</span>
+<span style="font-size:14px;display:block;max-width:680px;position:absolute;right:0;margin-top:-33px;">(本節目所有美食照片都來自[阿旺]XD)</span>
 
 
 

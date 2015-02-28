@@ -21,7 +21,7 @@ desc: 很開心可以入選RubyKaigi 2014 獎學金辦法，這一切都要感�
 <img src="/images/Japan/line.jpg" alt="Line總公司一隅">
 其實一進入LINE的公司中，會瞬間以為自己成了熊大和兔兔的同事一樣，公司的佈置充滿了LINE的人物，[Inside]在去年曾經有很詳盡的報導，裡面照片很多，大家也可以連去看看：[【東京直擊！】參訪 LINE 新總部]。
 <img src="/images/Japan/line2.jpg" alt="Line公司介紹meeting">
-<span style="font-size:18px;display:block;width:680px;position:absolute;right:0;margin-top:-33px;">(照片來自[五十嵐先生(@igaiga)的flickr])</span>
+<span style="font-size:14px;display:block;max-width:680px;position:absolute;right:0;margin-top:-33px;">(照片來自[五十嵐先生(@igaiga)的flickr])</span>
 
 LINE公司的介紹很用心！他們多是以台灣為角度在敘述公司情況，也看得出來跟台灣LINE的交流頻繁！讓我印象深刻的，是在他們的介紹影片中，有一間遊戲測試室，裡面就是給玩家玩LINE的週邊遊戲，他們會在另一個房間觀察使用者操作情形，感受得出他們非常重視使用者經驗！
 大家從照片中應該可以看到桌上有一大堆禮物XD，LINE超大方的送了很多紀念品給我們，這是我們參觀的第一家公司，意思就是我們會帶著這大包紀念品去其他公司參觀，其他公司應該會有很大的壓力XD"
@@ -40,18 +40,18 @@ LINE公司的介紹很用心！他們多是以台灣為角度在敘述公司情�
 <img src="/images/Japan/spicelife.jpg" alt="spice life Logo">
 相較於前兩間公司雖然小了些，但他們公司散發出一種非常歡樂的氣息，冰箱裡也擺滿滿工程師們愛喝的飲料，如果辦公室的大小以100來算的話，大概有80的區域都是工程師的地盤，剩下20的區域是給客服以及設計的成員！非常重視工程師呢！
 <img src="/images/Japan/spicelife2.jpg" alt="與spice life開發部長五十嵐先生的大合照">
-<span style="font-size:18px;display:block;width:680px;position:absolute;right:0;margin-top:-33px;">(照片來自[五十嵐先生(@igaiga)的flickr])</span>
+<span style="font-size:14px;display:block;max-width:680px;position:absolute;right:0;margin-top:-33px;">(照片來自[五十嵐先生(@igaiga)的flickr])</span>
 
 下面這張，我們三個臺北鐵道女孩所穿的衣服，也是來自spice life的噢！我們最後一天，有穿著它上[Ruby Hiroba 2014的生活發表會]，這部分後面的文章會再多作說明！
 <img src="/images/Japan/spicelife3.jpg" alt="謝謝spicelife送我們三個RailsGirls衣服！">
-<span style="font-size:18px;display:block;width:680px;position:absolute;right:0;margin-top:-33px;">(照片來自[五十嵐先生(@igaiga)的flickr])</span>
+<span style="font-size:14px;display:block;max-width:680px;position:absolute;right:0;margin-top:-33px;">(照片來自[五十嵐先生(@igaiga)的flickr])</span>
 
 
 ##CrowdWorks
 
 [CrowdWorks]公司就在等等要介紹的[GMO]的對面呢！從照片可以很清楚看到窗外的GMO XD！我們真的很榮幸可以直接聽CrowdWorks的CTO[大場光一郎]先生說明公司概況！雖然全程都日文，但好險有慕凡幫我們翻譯QQ！全日本最大的工程、設計接案平台，就是他們公司做的，我隨便點一個網站開發的案子進去，就看到一個Rails的案子時薪給3000~4000日幣，大概台幣850~1120元QQ...
 <img src="/images/Japan/crowdworks.jpg" alt="與CrowdWorks的CTO大場光一郎先生合照">
-<span style="font-size:18px;display:block;width:680px;position:absolute;right:0;margin-top:-33px;">(照片來自[五十嵐先生(@igaiga)的flickr])</span>
+<span style="font-size:14px;display:block;max-width:680px;position:absolute;right:0;margin-top:-33px;">(照片來自[五十嵐先生(@igaiga)的flickr])</span>
 
 啊，轉換個心情，覺得網站有一個功能非常可愛，大家看FB看到不錯的會按『讚』，有些平台也會給類似『喜歡』的功能，但CrowdWorks是讓案主可以在案子結束後對接案者按一個『謝謝』的按鈕！覺得非常貼心啊！
 另外，上網找了一下，有看到類似當時大場先生介紹公司的[投影片]，有興趣大家可以去看看，只是都日文XD，其中印象較深刻的，是他們對UI和UX很重視，有請學生來公司實習，並請學生們組成小組來實際操作他們的網站服務，然後學生們真的對一些使用者經驗的部分提出了建議，公司也真的有採用呢！
@@ -60,7 +60,7 @@ LINE公司的介紹很用心！他們多是以台灣為角度在敘述公司情�
 
 [GMO]是我們這一天的最後一站，說實在，整天下來英文、日文資訊轟炸，當時有點累了XD但在這個moment，出現了非常強大的人物，讓我不得不把眼睛睜亮點！照片中脖子掛著<span style="text-decoration: line-through; color: #999;">大砲</span>看起來很厲害也真的很厲害的單眼的那位，就是Ruby的Committer， Hiroshi Shibata柴田先生，他在Ruby Kaigi的下一週也有受邀來到台灣的Rails Pacific演講噢！
 <img src="/images/Japan/gmo.jpg" alt="與GMO的Shibata先生、Kuribayashi先生合照">
-<span style="font-size:18px;display:block;width:680px;position:absolute;right:0;margin-top:-33px;">(照片來自[五十嵐先生(@igaiga)的flickr])</span>
+<span style="font-size:14px;display:block;max-width:680px;position:absolute;right:0;margin-top:-33px;">(照片來自[五十嵐先生(@igaiga)的flickr])</span>
 
 而GMO本身也是有在做APP、遊戲...產品也是非常多元，不過有一個很特別就是，它提供把域名換成「.tokyo」的服務，詳情也可以在這裡看到：[.tokyo]。
 這天晚上GMO剛好提供給Pre-Ruby Kaigi Welcome Party場地，GMO介紹時其實已有許多人陸陸續續進到會場中，在GMO介紹完後，我們也真正開始進入認識大大們之旅，這部分就待下篇文章再作說明囉！
