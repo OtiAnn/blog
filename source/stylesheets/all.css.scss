@@ -1,5 +1,11 @@
 /*
- *= require_tree .
+ *= require normalize
+ *= require navbar
+ *= require article_list
+ *= require code
+ *= require post
+ *= require mobile
+ *= require ligature_symbols
  *= require_self
  */
 html, body, div, span, applet, object, iframe,
@@ -125,85 +131,6 @@ header {
 }
 .navbar-480 {
   display: none;
-}
-@media screen and (max-width: 480px) {
-  .re-position-for-navbar {
-    position: relative;
-    top: 0;
-  }
-  .container {
-    margin-top: 150px;
-  }
-  header.header-for-mobile {
-    text-align: center;
-    position: fixed;
-    margin: 0;
-    top: 0;
-    border-bottom: 1px solid #aaa;
-    background-color: #FFF;
-    z-index: 998;
-    h1 {
-      font-size: 35px;
-      margin: 10px;
-      letter-spacing: -3px;
-      padding-left: 0;
-      transition: none;
-    }
-    p {
-      display: none;
-    }
-    .navbar {
-      display: none;
-    }
-    .navbar-480 {
-      z-index: 999;
-      display: block;
-      position: fixed;
-      top: 0;
-      left: 0;
-      li {
-        display: none;
-        position: relative;
-        background: transparent;
-      }
-      &.lsf-icon {
-        font-size: 1.5em;
-        &:before {
-          color: #3b3b3b;
-          position: absolute;
-          top: 13px;
-        }
-      }
-      &.open {
-        -webkit-transition: position .5s;
-        -moz-transition: position .5s;
-        -o-transition: position .5s;
-        transition: position .5s;
-        width: 100%;
-        li:first-child {
-          margin-top: 72px;
-          border-top: 1px solid #aaa;
-        }
-        li {
-          display: block;
-          background: rgb(255, 245, 245);
-          border-bottom: 1px solid #aaa;
-          border-left: 10px solid #D13030;
-          a {
-            display: block;
-            font-size: 24px;
-            text-decoration: none;
-            padding: 20px 0 16px;
-          }
-        }
-        &.lsf-icon {
-          &:before {
-            right: 0;
-          }
-        }
-      }
-    }
-  }
 }
 .readMore {
   display: inline-block;

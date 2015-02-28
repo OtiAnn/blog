@@ -6,15 +6,15 @@
     </div>
     <div class="content">
       <%= yield %>
-      <span style="font-size: 18px;" class="lsf-icon" title="tag">
+      <span style="font-size: 14px;" class="lsf-icon" title="tag">
         <% current_article.tags.each do |tag| %>
-          <li style="line-height: 2; border: none; font-size: 20px; display: inline;">
+          <li style="line-height: 2; border: none; font-size: 16px; display: inline;">
             <%= link_to tag, tag_path(tag) %>
           </li>
         <% end %>
       </span>
     </div>
-    <iframe src="//www.facebook.com/plugins/like.php?href=<%= "http://blog.annideas.com#{current_article.url}" %>&amp;width=750px&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:750px; height:21px;" allowTransparency="true"></iframe>
+    <iframe src="//www.facebook.com/plugins/like.php?href=<%= "http://blog.annideas.com#{current_article.url}" %>&amp;width=750px&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; max-width:750px; height:21px;" allowTransparency="true"></iframe>
     <%= disqus %>
   </div>
 <% end %>
