@@ -122,34 +122,26 @@
         color: #777;
       }
     }
-    .aboutBlock {
-      padding-bottom: 0;
-    }
     pre {
       padding: 15px 20px;
       border: 1px dashed #555;
-      border-left: 10px solid #555;
+      // border-left: 10px solid #555;
       // border-left: 10px solid #FAE72C;
-      border-radius: 10px 0 0 10px;
+      // border-radius: 10px 0 0 10px;
       // background-color: #49483e;
       background-color: #fff;
       .line-through {
         text-decoration: line-through;
         color: #999;
       }
-      .about {
-        margin: -60px 0;
-        text-align: center;
-        span {
-          line-height: 1.5;
-        }
-      }
+    }
+    pre.aboutBlock {
+      position: relative;
       .aboutLink {
-        display: inline-block;
-        width: 100%;
-        text-align: right;
-        margin: 0;
-        line-height: 0;
+        position: absolute;
+        left: 5px;
+        margin-top: 15px;
+        font-size: 24px;
         a.lsf-icon {
           border: none;
         }
@@ -204,7 +196,6 @@
     }
     a {
       border-bottom: 2px dotted #D13030;
-      // padding-bottom: 2px;
       margin: 0 5px;
     }
     table{
