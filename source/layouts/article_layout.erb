@@ -14,6 +14,10 @@
         <% end %>
       </span>
     </div>
+    <div class="newer-older-block">
+      <span class="newer"><%= link_to "#{current_article.next_article.title}", current_article.next_article %></span>
+      <span class="older"><%= link_to "#{current_article.previous_article.title}", current_article.previous_article %></span>
+    </div>
     <iframe src="//www.facebook.com/plugins/like.php?href=<%= "http://blog.annideas.com#{current_article.url}" %>&amp;width=750px&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; max-width:750px; height:21px;" allowTransparency="true"></iframe>
     <%= disqus %>
   </div>

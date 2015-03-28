@@ -50,65 +50,23 @@
       position: relative;
     }
     h1 {
-      font-size: 26px;
+      font-size: 22px;
     }
     h2 {
-      font-size: 24px;
+      font-size: 18px;
     }
-    h1,h3 {
-      font-size: 26px;
+    h3 {
+      font-size: 16px;
     }
-    h1, h3 {
-      &:before, &:after {
-        content: " ";
-        display: block;
-        position: absolute;
-        border: 7px solid transparent;
-        -webkit-transition: all .3s ease-in-out;
-        -o-transition: all .3s ease-in-out;
-        transition: all .3s ease-in-out;
-        -webkit-transform: rotate(-40deg);
-        -ms-transform: rotate(-40deg);
-        -o-transform: rotate(-40deg);
-        transform: rotate(-40deg);
-      }
-      &:hover {
-        cursor: default;
-        &:before, &:after {
-          -webkit-transform: rotate(-400deg);
-          -ms-transform: rotate(-400deg);
-          -o-transform: rotate(-400deg);
-          transform: rotate(-400deg);
-        }
-      }
-    }
-
     h1 {
-      &:before {
-        left: -20px;
-        top: -10px;
-        border-right: 20px solid #D13030;
-      }
-      &:after {
-        left: -23px;
-        top: -8px;
-        border-left: 20px solid #D13030;
-      }
+      padding-left: 3px;
+      padding-top: 3px;
+      border-left: 7px solid #D13030;
     }
     h2,h3 {
-      padding-left: 10px;
-      padding-top: 6px;
-      border-left: 10px solid #FF9726;
-    }
-
-    h4 {
-      font-size: 26px;
-    }
-    h5 {
-      font-size: 24px;
-    }
-    h6 {
-      font-size: 22px;
+      padding-left: 3px;
+      padding-top: 3px;
+      border-left: 5px solid #FF9726;
     }
     p {
       font-size: 16px;
@@ -116,7 +74,6 @@
         padding: 3px 5px;
         margin: 0 3px;
         border-radius: 2px;
-        // border: 1px solid #bbb;
         background-color: #F5F5F5;
         color: #777;
       }
@@ -124,10 +81,6 @@
     pre {
       padding: 15px 20px;
       border: 1px dashed #555;
-      // border-left: 10px solid #555;
-      // border-left: 10px solid #FAE72C;
-      // border-radius: 10px 0 0 10px;
-      // background-color: #49483e;
       background-color: #fff;
       .line-through {
         text-decoration: line-through;
@@ -161,12 +114,12 @@
     }
     ul,ol {
       padding-left: 30px;
-      list-style: inherit;
+      list-style: disc;
       li {
         margin-bottom: 10px;
         ul {
           margin: 0;
-          list-style-type: circle;
+          list-style-type: square;
           li {
             margin-bottom: 0;
           }
@@ -174,23 +127,21 @@
       }
     }
     blockquote {
-      padding: 20px 15px 15px;
-      border-left: 10px solid #D13030;
-      border-radius: 10px 0 0 10px;
+      padding: 10px 20px 10px;
+      border-left: 5px solid #D13030;
       background-color: rgba(209, 48, 48, .1);
       text-indent: 18px;
-      color: #3d3d3d;
-      font-size: 18px;
+      color: #777;
+      font-size: 16px;
       position: relative;
       &:before {
         color: #D13030;
         content: '’’';
         position: absolute;
-        left: -14px;
-        top: -30px;
-        font-size: 77px;
-        letter-spacing: -62px;
-        font-family: monospace;
+        left: -12px;
+        top: -16px;
+        font-size: 65px;
+        font-family: helvetica;
       }
     }
     a {

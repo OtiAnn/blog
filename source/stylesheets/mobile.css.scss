@@ -7,7 +7,7 @@
     bottom: -75px;
   }
   .container {
-    padding-top: 85px;
+    padding-top: 120px;
     margin-top: 0;
   }
   header.header-for-mobile {
@@ -101,17 +101,9 @@
     .content {
       h1 {
         font-size: 20px;
-        left: 4px;
-        &:before {
-          left: -10px;
-        }
-        &:after {
-          left: -13px;
-        }
       }
       h2 {
         font-size: 18px;
-        padding-left: 5px;
       }
       h3 {
         font-size: 16px;
@@ -165,8 +157,12 @@
       }
       .summary {
         padding: 70px 0 0;
-        font-size: 16px;
+        font-size: 15px;
+        line-height: 20px;
       }
     }
+  }
+  .newer-older-block {
+    display: none;
   }
 }
